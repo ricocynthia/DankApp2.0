@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94BD2C5923A74E8600623A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD2C5823A74E8600623A42 /* AppDelegate.swift */; };
+		94BD2C5B23A74E8600623A42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD2C5A23A74E8600623A42 /* SceneDelegate.swift */; };
+		94BD2C5D23A74E8600623A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD2C5C23A74E8600623A42 /* ViewController.swift */; };
+		94BD2C6023A74E8600623A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BD2C5E23A74E8600623A42 /* Main.storyboard */; };
+		94BD2C6223A74E8800623A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BD2C6123A74E8800623A42 /* Assets.xcassets */; };
+		94BD2C6523A74E8800623A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BD2C6323A74E8800623A42 /* LaunchScreen.storyboard */; };
+		94BD2C7023A74E8800623A42 /* DankApp2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD2C6F23A74E8800623A42 /* DankApp2_0Tests.swift */; };
+		94BD2C7B23A74E8800623A42 /* DankApp2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BD2C7A23A74E8800623A42 /* DankApp2_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94BD2C6C23A74E8800623A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BD2C4D23A74E8600623A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BD2C5423A74E8600623A42;
+			remoteInfo = DankApp2.0;
+		};
+		94BD2C7723A74E8800623A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94BD2C4D23A74E8600623A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94BD2C5423A74E8600623A42;
+			remoteInfo = DankApp2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94BD2C5523A74E8600623A42 /* DankApp2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DankApp2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BD2C5823A74E8600623A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94BD2C5A23A74E8600623A42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94BD2C5C23A74E8600623A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94BD2C5F23A74E8600623A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94BD2C6123A74E8800623A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94BD2C6423A74E8800623A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94BD2C6623A74E8800623A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BD2C6B23A74E8800623A42 /* DankApp2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DankApp2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BD2C6F23A74E8800623A42 /* DankApp2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DankApp2_0Tests.swift; sourceTree = "<group>"; };
+		94BD2C7123A74E8800623A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BD2C7623A74E8800623A42 /* DankApp2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DankApp2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BD2C7A23A74E8800623A42 /* DankApp2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DankApp2_0UITests.swift; sourceTree = "<group>"; };
+		94BD2C7C23A74E8800623A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94BD2C5223A74E8600623A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD2C6823A74E8800623A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD2C7323A74E8800623A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94BD2C4C23A74E8600623A42 = {
+			isa = PBXGroup;
+			children = (
+				94BD2C5723A74E8600623A42 /* DankApp2.0 */,
+				94BD2C6E23A74E8800623A42 /* DankApp2.0Tests */,
+				94BD2C7923A74E8800623A42 /* DankApp2.0UITests */,
+				94BD2C5623A74E8600623A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94BD2C5623A74E8600623A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94BD2C5523A74E8600623A42 /* DankApp2.0.app */,
+				94BD2C6B23A74E8800623A42 /* DankApp2.0Tests.xctest */,
+				94BD2C7623A74E8800623A42 /* DankApp2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94BD2C5723A74E8600623A42 /* DankApp2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				94BD2C5823A74E8600623A42 /* AppDelegate.swift */,
+				94BD2C5A23A74E8600623A42 /* SceneDelegate.swift */,
+				94BD2C5C23A74E8600623A42 /* ViewController.swift */,
+				94BD2C5E23A74E8600623A42 /* Main.storyboard */,
+				94BD2C6123A74E8800623A42 /* Assets.xcassets */,
+				94BD2C6323A74E8800623A42 /* LaunchScreen.storyboard */,
+				94BD2C6623A74E8800623A42 /* Info.plist */,
+			);
+			path = DankApp2.0;
+			sourceTree = "<group>";
+		};
+		94BD2C6E23A74E8800623A42 /* DankApp2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94BD2C6F23A74E8800623A42 /* DankApp2_0Tests.swift */,
+				94BD2C7123A74E8800623A42 /* Info.plist */,
+			);
+			path = DankApp2.0Tests;
+			sourceTree = "<group>";
+		};
+		94BD2C7923A74E8800623A42 /* DankApp2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				94BD2C7A23A74E8800623A42 /* DankApp2_0UITests.swift */,
+				94BD2C7C23A74E8800623A42 /* Info.plist */,
+			);
+			path = DankApp2.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94BD2C5423A74E8600623A42 /* DankApp2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BD2C7F23A74E8800623A42 /* Build configuration list for PBXNativeTarget "DankApp2.0" */;
+			buildPhases = (
+				94BD2C5123A74E8600623A42 /* Sources */,
+				94BD2C5223A74E8600623A42 /* Frameworks */,
+				94BD2C5323A74E8600623A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DankApp2.0;
+			productName = DankApp2.0;
+			productReference = 94BD2C5523A74E8600623A42 /* DankApp2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94BD2C6A23A74E8800623A42 /* DankApp2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BD2C8223A74E8800623A42 /* Build configuration list for PBXNativeTarget "DankApp2.0Tests" */;
+			buildPhases = (
+				94BD2C6723A74E8800623A42 /* Sources */,
+				94BD2C6823A74E8800623A42 /* Frameworks */,
+				94BD2C6923A74E8800623A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94BD2C6D23A74E8800623A42 /* PBXTargetDependency */,
+			);
+			name = DankApp2.0Tests;
+			productName = DankApp2.0Tests;
+			productReference = 94BD2C6B23A74E8800623A42 /* DankApp2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94BD2C7523A74E8800623A42 /* DankApp2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94BD2C8523A74E8800623A42 /* Build configuration list for PBXNativeTarget "DankApp2.0UITests" */;
+			buildPhases = (
+				94BD2C7223A74E8800623A42 /* Sources */,
+				94BD2C7323A74E8800623A42 /* Frameworks */,
+				94BD2C7423A74E8800623A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94BD2C7823A74E8800623A42 /* PBXTargetDependency */,
+			);
+			name = DankApp2.0UITests;
+			productName = DankApp2.0UITests;
+			productReference = 94BD2C7623A74E8800623A42 /* DankApp2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94BD2C4D23A74E8600623A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Cynthia Rico Mendoza";
+				TargetAttributes = {
+					94BD2C5423A74E8600623A42 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					94BD2C6A23A74E8800623A42 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 94BD2C5423A74E8600623A42;
+					};
+					94BD2C7523A74E8800623A42 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 94BD2C5423A74E8600623A42;
+					};
+				};
+			};
+			buildConfigurationList = 94BD2C5023A74E8600623A42 /* Build configuration list for PBXProject "DankApp2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94BD2C4C23A74E8600623A42;
+			productRefGroup = 94BD2C5623A74E8600623A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94BD2C5423A74E8600623A42 /* DankApp2.0 */,
+				94BD2C6A23A74E8800623A42 /* DankApp2.0Tests */,
+				94BD2C7523A74E8800623A42 /* DankApp2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94BD2C5323A74E8600623A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BD2C6523A74E8800623A42 /* LaunchScreen.storyboard in Resources */,
+				94BD2C6223A74E8800623A42 /* Assets.xcassets in Resources */,
+				94BD2C6023A74E8600623A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD2C6923A74E8800623A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD2C7423A74E8800623A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94BD2C5123A74E8600623A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BD2C5D23A74E8600623A42 /* ViewController.swift in Sources */,
+				94BD2C5923A74E8600623A42 /* AppDelegate.swift in Sources */,
+				94BD2C5B23A74E8600623A42 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD2C6723A74E8800623A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BD2C7023A74E8800623A42 /* DankApp2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BD2C7223A74E8800623A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BD2C7B23A74E8800623A42 /* DankApp2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94BD2C6D23A74E8800623A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BD2C5423A74E8600623A42 /* DankApp2.0 */;
+			targetProxy = 94BD2C6C23A74E8800623A42 /* PBXContainerItemProxy */;
+		};
+		94BD2C7823A74E8800623A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94BD2C5423A74E8600623A42 /* DankApp2.0 */;
+			targetProxy = 94BD2C7723A74E8800623A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94BD2C5E23A74E8600623A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94BD2C5F23A74E8600623A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94BD2C6323A74E8800623A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94BD2C6423A74E8800623A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94BD2C7D23A74E8800623A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94BD2C7E23A74E8800623A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94BD2C8023A74E8800623A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPK4YU9X6;
+				INFOPLIST_FILE = DankApp2.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RicoProductions.DankApp2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94BD2C8123A74E8800623A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPK4YU9X6;
+				INFOPLIST_FILE = DankApp2.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RicoProductions.DankApp2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94BD2C8323A74E8800623A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPK4YU9X6;
+				INFOPLIST_FILE = DankApp2.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RicoProductions.DankApp2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DankApp2.0.app/DankApp2.0";
+			};
+			name = Debug;
+		};
+		94BD2C8423A74E8800623A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPK4YU9X6;
+				INFOPLIST_FILE = DankApp2.0Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RicoProductions.DankApp2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DankApp2.0.app/DankApp2.0";
+			};
+			name = Release;
+		};
+		94BD2C8623A74E8800623A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPK4YU9X6;
+				INFOPLIST_FILE = DankApp2.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RicoProductions.DankApp2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DankApp2.0;
+			};
+			name = Debug;
+		};
+		94BD2C8723A74E8800623A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVPK4YU9X6;
+				INFOPLIST_FILE = DankApp2.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RicoProductions.DankApp2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DankApp2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94BD2C5023A74E8600623A42 /* Build configuration list for PBXProject "DankApp2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BD2C7D23A74E8800623A42 /* Debug */,
+				94BD2C7E23A74E8800623A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BD2C7F23A74E8800623A42 /* Build configuration list for PBXNativeTarget "DankApp2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BD2C8023A74E8800623A42 /* Debug */,
+				94BD2C8123A74E8800623A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BD2C8223A74E8800623A42 /* Build configuration list for PBXNativeTarget "DankApp2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BD2C8323A74E8800623A42 /* Debug */,
+				94BD2C8423A74E8800623A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94BD2C8523A74E8800623A42 /* Build configuration list for PBXNativeTarget "DankApp2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BD2C8623A74E8800623A42 /* Debug */,
+				94BD2C8723A74E8800623A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94BD2C4D23A74E8600623A42 /* Project object */;
+}
