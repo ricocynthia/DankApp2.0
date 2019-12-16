@@ -360,6 +360,7 @@
                                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="backButtonPressed:" destination="xdx-ao-tKW" id="zmF-aF-B08"/>
+                                                <segue destination="ZwR-dv-MfL" kind="show" id="73a-I9-fjb"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -392,4 +393,7 @@
         <image name="nug" width="5152" height="3864"/>
         <image name="pain" width="6000" height="4000"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="73a-I9-fjb"/>
+    </inferredMetricsTieBreakers>
 </document>
